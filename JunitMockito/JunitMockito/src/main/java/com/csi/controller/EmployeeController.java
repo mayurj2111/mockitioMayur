@@ -58,4 +58,11 @@ public class EmployeeController {
 
         return ResponseEntity.ok("Id deleted Successfully");
     }
+    @DeleteMapping("/fdthfdhd/")
+    public ResponseEntity<String >say(  ){
+
+
+
+        return ResponseEntity.ok("hello");
+    }
 }
